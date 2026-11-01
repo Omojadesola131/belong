@@ -1,0 +1,12 @@
+# Netlify builds the web version of BELONG automatically.
+[build]
+  command = "npx expo install react-dom react-native-web @expo/metro-runtime && npx expo export --platform web"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "BELONG",
+    "slug": "belong",
+    "scheme": "belong",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "app.belong.community" },
+    "android": { "package": "app.belong.community" },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": ["expo-router"]
+  }
+}
